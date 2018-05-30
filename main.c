@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int randomInt(int max, int min){
-	return rand() % (min-max+1)+max;
+int randomInt(int min, int max){
+	return rand() % (max-min+1)+min;
 }
 
 char* randomString(int size){
